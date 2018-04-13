@@ -1,8 +1,9 @@
+import geb.spock.GebReportingSpec
 import geb.spock.GebSpec
 import pages.GebishOrgHomePage
 import pages.TheBookOfGebPage
 
-class GebishOrgSpec extends GebSpec {
+class GebishOrgSpec extends GebReportingSpec {
 
     def "can get to the current Book of Geb"() {
         when:
